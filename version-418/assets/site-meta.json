@@ -1,0 +1,9 @@
+{
+  "siteTitle": "最新国产影片-最新影片合集-高清影片在线播放",
+  "logo": "最新国产影片",
+  "movieCount": 1982,
+  "categoryCount": 10,
+  "detailPageCount": 1982,
+  "coverRule": "第 N 条影片使用 ./X.jpg，X = ((N - 1) % 150) + 1。ZIP 包不包含 JPG 图片。",
+  "generatedPages": 1997
+}

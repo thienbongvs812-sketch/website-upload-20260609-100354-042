@@ -1,0 +1,1333 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>热播排行榜_免费高清电影电视剧推荐-追新番</title>
+  <meta name="description" content="追新番热播排行榜按年份、评分与推荐权重整理电影电视剧内容，提供高清在线播放入口。">
+  <meta name="keywords" content="热播排行榜,免费电影排行榜,电视剧推荐,高清在线播放,追新番">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="./index.html" aria-label="追新番">
+      <span class="brand-mark">追</span>
+      <span class="brand-name">追新番</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="./index.html">首页</a>
+      <a class="nav-link" href="./categories.html">分类</a>
+      <a class="nav-link" href="./search.html">搜索</a>
+      <a class="nav-link active" href="./ranking.html">排行榜</a>
+      <a class="nav-link" href="./library.html">片库</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-label="展开导航" data-menu-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" aria-label="移动端导航" data-mobile-nav>
+    <a class="mobile-link" href="./index.html">首页</a>
+    <a class="mobile-link" href="./categories.html">分类</a>
+    <a class="mobile-link" href="./search.html">搜索</a>
+    <a class="mobile-link active" href="./ranking.html">排行榜</a>
+    <a class="mobile-link" href="./library.html">片库</a>
+  </nav>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb"><a href="./index.html">首页</a><span>/</span><span>排行榜</span></nav>
+      <h1>热播排行榜</h1>
+      <p>依据影片年份、评分和推荐热度排列，快速浏览高关注电影与电视剧。</p>
+    </div>
+  </section>
+  <section class="section dark">
+    <div class="container">
+      <div class="filter-panel">
+  <label class="search-box">
+    <span>搜索</span>
+    <input type="search" placeholder="输入片名、类型、地区或标签" data-filter-search>
+  </label>
+  <div class="filter-row">
+    <select class="filter-select" data-filter-year>
+      <option value="">全部年份</option>
+      <option value="2029">2029</option>
+          <option value="2028">2028</option>
+          <option value="2027">2027</option>
+          <option value="2026">2026</option>
+          <option value="2025">2025</option>
+          <option value="2024">2024</option>
+          <option value="2023">2023</option>
+          <option value="2022">2022</option>
+          <option value="2021">2021</option>
+          <option value="2020">2020</option>
+          <option value="2019">2019</option>
+          <option value="2018">2018</option>
+    </select>
+    <select class="filter-select" data-filter-type>
+      <option value="">全部类型</option>
+      <option value="Movie">Movie</option>
+          <option value="OVA">OVA</option>
+          <option value="TV Series">TV Series</option>
+          <option value="TV series">TV series</option>
+          <option value="TV 剧集">TV 剧集</option>
+          <option value="TV剧集">TV剧集</option>
+          <option value="TV动画">TV动画</option>
+          <option value="剧集">剧集</option>
+          <option value="剧集 (10集)">剧集 (10集)</option>
+          <option value="剧集 (共10集)">剧集 (共10集)</option>
+          <option value="剧集 (网络剧)">剧集 (网络剧)</option>
+          <option value="剧集 奇幻, 剧情">剧集 奇幻, 剧情</option>
+          <option value="剧集/网络剧">剧集/网络剧</option>
+          <option value="剧集幕后">剧集幕后</option>
+          <option value="剧集，传记">剧集，传记</option>
+          <option value="动态漫画">动态漫画</option>
+          <option value="动漫">动漫</option>
+          <option value="动画">动画</option>
+          <option value="动画 / 剧集">动画 / 剧集</option>
+          <option value="动画 / 游戏改编">动画 / 游戏改编</option>
+          <option value="动画剧集">动画剧集</option>
+          <option value="动画剧集 (24集)">动画剧集 (24集)</option>
+          <option value="动画电影">动画电影</option>
+          <option value="动画短片">动画短片</option>
+          <option value="喜剧电影">喜剧电影</option>
+          <option value="演唱会电影">演唱会电影</option>
+          <option value="特别篇">特别篇</option>
+          <option value="电影">电影</option>
+          <option value="电影 (剧场版)">电影 (剧场版)</option>
+          <option value="电影 / 动画">电影 / 动画</option>
+          <option value="电影 / 真人版">电影 / 真人版</option>
+          <option value="电影 / 纪录片">电影 / 纪录片</option>
+          <option value="电影 剧情，悬疑">电影 剧情，悬疑</option>
+          <option value="电影 动作、冒险">电影 动作、冒险</option>
+          <option value="电影 爱情、悬疑">电影 爱情、悬疑</option>
+          <option value="电影(上下部)">电影(上下部)</option>
+          <option value="电影（动画短片）">电影（动画短片）</option>
+          <option value="电影（动画）">电影（动画）</option>
+          <option value="电视剧">电视剧</option>
+          <option value="电视剧 / 剧情">电视剧 / 剧情</option>
+          <option value="电视剧 / 动画">电视剧 / 动画</option>
+          <option value="电视剧 / 单元剧">电视剧 / 单元剧</option>
+          <option value="电视剧 / 喜剧短片">电视剧 / 喜剧短片</option>
+          <option value="电视剧 / 网剧">电视剧 / 网剧</option>
+          <option value="电视剧 / 限定剧">电视剧 / 限定剧</option>
+          <option value="电视剧 / 青春校园">电视剧 / 青春校园</option>
+          <option value="电视剧 历史、剧情">电视剧 历史、剧情</option>
+          <option value="电视电影">电视电影</option>
+          <option value="短剧">短剧</option>
+          <option value="短片">短片</option>
+          <option value="纪录剧集">纪录剧集</option>
+          <option value="纪录片">纪录片</option>
+          <option value="纪录片 / 特别节目">纪录片 / 特别节目</option>
+          <option value="纪录片/伪纪录片">纪录片/伪纪录片</option>
+          <option value="综艺">综艺</option>
+          <option value="综艺 / 剧集">综艺 / 剧集</option>
+          <option value="综艺 / 晚会">综艺 / 晚会</option>
+          <option value="综艺 / 电影">综艺 / 电影</option>
+          <option value="网剧">网剧</option>
+          <option value="网络剧">网络剧</option>
+          <option value="网络剧 (12集)">网络剧 (12集)</option>
+          <option value="网络电影">网络电影</option>
+          <option value="网络短剧">网络短剧</option>
+          <option value="音乐纪录片">音乐纪录片</option>
+    </select>
+    <select class="filter-select" data-filter-region>
+          <option value="">全部地区</option>
+          <option value="东南亚 / 美国">东南亚 / 美国</option>
+          <option value="中国">中国</option>
+          <option value="中国内地">中国内地</option>
+          <option value="中国内地/亚洲">中国内地/亚洲</option>
+          <option value="中国台湾">中国台湾</option>
+          <option value="中国台湾 / 日本">中国台湾 / 日本</option>
+          <option value="中国大陆">中国大陆</option>
+          <option value="中国大陆 / 中国台湾">中国大陆 / 中国台湾</option>
+          <option value="中国大陆 / 法国">中国大陆 / 法国</option>
+          <option value="中国大陆 / 澳大利亚">中国大陆 / 澳大利亚</option>
+          <option value="中国大陆 / 美国">中国大陆 / 美国</option>
+          <option value="中国大陆 / 香港">中国大陆 / 香港</option>
+          <option value="中国大陆/美国">中国大陆/美国</option>
+          <option value="中国澳门">中国澳门</option>
+          <option value="中国香港">中国香港</option>
+          <option value="中国香港 / 中国大陆">中国香港 / 中国大陆</option>
+          <option value="中国香港 / 台湾">中国香港 / 台湾</option>
+          <option value="中国香港 / 泰国">中国香港 / 泰国</option>
+          <option value="中国香港 / 美国">中国香港 / 美国</option>
+          <option value="中国香港, 中国大陆">中国香港, 中国大陆</option>
+          <option value="中国香港/德国">中国香港/德国</option>
+          <option value="丹麦">丹麦</option>
+          <option value="乌克兰">乌克兰</option>
+          <option value="以色列">以色列</option>
+          <option value="伊朗">伊朗</option>
+          <option value="伊朗 / 法国">伊朗 / 法国</option>
+          <option value="伊朗, 德国">伊朗, 德国</option>
+          <option value="伊朗, 美国">伊朗, 美国</option>
+          <option value="俄罗斯">俄罗斯</option>
+          <option value="冰岛">冰岛</option>
+          <option value="加拿大">加拿大</option>
+          <option value="加拿大, 法国">加拿大, 法国</option>
+          <option value="匈牙利">匈牙利</option>
+          <option value="匈牙利 / 德国">匈牙利 / 德国</option>
+          <option value="北欧（虚构）">北欧（虚构）</option>
+          <option value="印度">印度</option>
+          <option value="印度尼西亚">印度尼西亚</option>
+          <option value="古巴 / 西班牙">古巴 / 西班牙</option>
+          <option value="台湾">台湾</option>
+          <option value="台湾地区">台湾地区</option>
+          <option value="哈萨克斯坦">哈萨克斯坦</option>
+          <option value="哥伦比亚 / 美国">哥伦比亚 / 美国</option>
+          <option value="土耳其">土耳其</option>
+          <option value="埃及">埃及</option>
+          <option value="塞尔维亚">塞尔维亚</option>
+          <option value="墨西哥">墨西哥</option>
+          <option value="墨西哥/西班牙">墨西哥/西班牙</option>
+          <option value="巴西">巴西</option>
+          <option value="巴西/法国/乌拉圭">巴西/法国/乌拉圭</option>
+          <option value="希腊">希腊</option>
+          <option value="德国">德国</option>
+          <option value="德国 / 奥地利">德国 / 奥地利</option>
+          <option value="德国 / 美国">德国 / 美国</option>
+          <option value="意大利">意大利</option>
+          <option value="意大利 / 法国">意大利 / 法国</option>
+          <option value="意大利 / 美国">意大利 / 美国</option>
+          <option value="意大利 / 西班牙">意大利 / 西班牙</option>
+          <option value="意大利, 法国">意大利, 法国</option>
+          <option value="挪威">挪威</option>
+          <option value="挪威 / 冰岛">挪威 / 冰岛</option>
+        </select>
+    <button class="filter-reset" type="button" data-filter-reset>重置</button>
+  </div>
+</div>
+      <div class="rank-list">
+        <article class="rank-item searchable" data-card data-title="古惑万能车" data-year="2029" data-type="电影" data-region="香港" data-search="古惑万能车 香港 科幻, 动作, 喜剧 变形汽车 街头古惑仔 人工智能 黑科技">
+  <span class="rank-index">1</span>
+  <img src="./37.jpg" alt="古惑万能车" loading="lazy">
+  <div>
+    <h2><a href="./movie-1237.html">古惑万能车</a></h2>
+    <p>2029 · 电影 · 香港 · 科幻, 动作, 喜剧</p>
+  </div>
+  <a class="button-light" href="./movie-1237.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="27套礼服" data-year="2028" data-type="电影" data-region="美国" data-search="27套礼服 美国 喜剧，爱情 婚礼狂 姐妹反目 剩女">
+  <span class="rank-index">2</span>
+  <img src="./31.jpg" alt="27套礼服" loading="lazy">
+  <div>
+    <h2><a href="./movie-0031.html">27套礼服</a></h2>
+    <p>2028 · 电影 · 美国 · 喜剧，爱情</p>
+  </div>
+  <a class="button-light" href="./movie-0031.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="卖火柴女孩的再临" data-year="2028" data-type="动画电影" data-region="日本" data-search="卖火柴女孩的再临 日本 奇幻 / 剧情 / 黑暗童话 赛博朋克 反乌托邦 大友克洋风 社会寓言 少女">
+  <span class="rank-index">3</span>
+  <img src="./142.jpg" alt="卖火柴女孩的再临" loading="lazy">
+  <div>
+    <h2><a href="./movie-1192.html">卖火柴女孩的再临</a></h2>
+    <p>2028 · 动画电影 · 日本 · 奇幻 / 剧情 / 黑暗童话</p>
+  </div>
+  <a class="button-light" href="./movie-1192.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="暴雨屋" data-year="2028" data-type="电影" data-region="日本 / 韩国" data-search="暴雨屋 日本 / 韩国 恐怖 / 悬疑 暴风雪山庄 循环 心理攀比">
+  <span class="rank-index">4</span>
+  <img src="./83.jpg" alt="暴雨屋" loading="lazy">
+  <div>
+    <h2><a href="./movie-1433.html">暴雨屋</a></h2>
+    <p>2028 · 电影 · 日本 / 韩国 · 恐怖 / 悬疑</p>
+  </div>
+  <a class="button-light" href="./movie-1433.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="总理：先驱" data-year="2028" data-type="电影" data-region="英国" data-search="总理：先驱 英国 传记， 历史 政治 女性 权谋 史诗">
+  <span class="rank-index">5</span>
+  <img src="./89.jpg" alt="总理：先驱" loading="lazy">
+  <div>
+    <h2><a href="./movie-1889.html">总理：先驱</a></h2>
+    <p>2028 · 电影 · 英国 · 传记， 历史</p>
+  </div>
+  <a class="button-light" href="./movie-1889.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="北之萤" data-year="2028" data-type="电影" data-region="日本" data-search="北之萤 日本 爱情 / 奇幻 / 历史 北海道 转世轮回 阿伊努文化 雪国">
+  <span class="rank-index">6</span>
+  <img src="./100.jpg" alt="北之萤" loading="lazy">
+  <div>
+    <h2><a href="./movie-1450.html">北之萤</a></h2>
+    <p>2028 · 电影 · 日本 · 爱情 / 奇幻 / 历史</p>
+  </div>
+  <a class="button-light" href="./movie-1450.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="普通爱情小故事" data-year="2028" data-type="电影" data-region="中国大陆" data-search="普通爱情小故事 中国大陆 爱情剧情 现实向 都市生活 治愈">
+  <span class="rank-index">7</span>
+  <img src="./10.jpg" alt="普通爱情小故事" loading="lazy">
+  <div>
+    <h2><a href="./movie-0010.html">普通爱情小故事</a></h2>
+    <p>2028 · 电影 · 中国大陆 · 爱情剧情</p>
+  </div>
+  <a class="button-light" href="./movie-0010.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="通往大河之路" data-year="2028" data-type="电影" data-region="中国大陆" data-search="通往大河之路 中国大陆 剧情 / 家庭 徒步 黄河 父子和解 遗愿清单 公路电影">
+  <span class="rank-index">8</span>
+  <img src="./51.jpg" alt="通往大河之路" loading="lazy">
+  <div>
+    <h2><a href="./movie-1701.html">通往大河之路</a></h2>
+    <p>2028 · 电影 · 中国大陆 · 剧情 / 家庭</p>
+  </div>
+  <a class="button-light" href="./movie-1701.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="寻找无限的尽头" data-year="2028" data-type="电影" data-region="英国/美国" data-search="寻找无限的尽头 英国/美国 冒险， 剧情， 奇幻 数学 公路片 自闭症">
+  <span class="rank-index">9</span>
+  <img src="./148.jpg" alt="寻找无限的尽头" loading="lazy">
+  <div>
+    <h2><a href="./movie-1348.html">寻找无限的尽头</a></h2>
+    <p>2028 · 电影 · 英国/美国 · 冒险， 剧情， 奇幻</p>
+  </div>
+  <a class="button-light" href="./movie-1348.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="夏威夷特勤组第三季" data-year="2027" data-type="剧集" data-region="美国" data-search="夏威夷特勤组第三季 美国 动作 / 犯罪 / 悬疑 阳光暴力 海岛罪案 高科技追凶 团队重组 每集一反转">
+  <span class="rank-index">10</span>
+  <img src="./115.jpg" alt="夏威夷特勤组第三季" loading="lazy">
+  <div>
+    <h2><a href="./movie-1165.html">夏威夷特勤组第三季</a></h2>
+    <p>2027 · 剧集 · 美国 · 动作 / 犯罪 / 悬疑</p>
+  </div>
+  <a class="button-light" href="./movie-1165.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="战争与和平3：1812年" data-year="2027" data-type="电影" data-region="俄罗斯" data-search="战争与和平3：1812年 俄罗斯 历史 / 爱情 / 战争 拿破仑侵俄 博罗季诺战役 莫斯科大火 史诗巨制">
+  <span class="rank-index">11</span>
+  <img src="./18.jpg" alt="战争与和平3：1812年" loading="lazy">
+  <div>
+    <h2><a href="./movie-1218.html">战争与和平3：1812年</a></h2>
+    <p>2027 · 电影 · 俄罗斯 · 历史 / 爱情 / 战争</p>
+  </div>
+  <a class="button-light" href="./movie-1218.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="美丽国度" data-year="2027" data-type="电视剧" data-region="北欧（虚构）" data-search="美丽国度 北欧（虚构） 科幻 / 悬疑 反乌托邦 人工智能 评分 社会寓言 压抑">
+  <span class="rank-index">12</span>
+  <img src="./87.jpg" alt="美丽国度" loading="lazy">
+  <div>
+    <h2><a href="./movie-0837.html">美丽国度</a></h2>
+    <p>2027 · 电视剧 · 北欧（虚构） · 科幻 / 悬疑</p>
+  </div>
+  <a class="button-light" href="./movie-0837.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="致命婚姻：美国逆伦案之谜" data-year="2027" data-type="剧集" data-region="美国" data-search="致命婚姻：美国逆伦案之谜 美国 犯罪, 纪录剧, 历史 真实罪案 19世纪 伦理禁忌 法庭剧">
+  <span class="rank-index">13</span>
+  <img src="./10.jpg" alt="致命婚姻：美国逆伦案之谜" loading="lazy">
+  <div>
+    <h2><a href="./movie-1510.html">致命婚姻：美国逆伦案之谜</a></h2>
+    <p>2027 · 剧集 · 美国 · 犯罪, 纪录剧, 历史</p>
+  </div>
+  <a class="button-light" href="./movie-1510.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="我是奴隶" data-year="2027" data-type="电影" data-region="中国大陆" data-search="我是奴隶 中国大陆 剧情、历史、惊悚 解放 人性觉醒 封建压迫">
+  <span class="rank-index">14</span>
+  <img src="./67.jpg" alt="我是奴隶" loading="lazy">
+  <div>
+    <h2><a href="./movie-0367.html">我是奴隶</a></h2>
+    <p>2027 · 电影 · 中国大陆 · 剧情、历史、惊悚</p>
+  </div>
+  <a class="button-light" href="./movie-0367.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="美猿王大闹天宫" data-year="2027" data-type="电影" data-region="中国大陆" data-search="美猿王大闹天宫 中国大陆 科幻 / 动作 赛博朋克 孙悟空 身体改造 反抗权威">
+  <span class="rank-index">15</span>
+  <img src="./127.jpg" alt="美猿王大闹天宫" loading="lazy">
+  <div>
+    <h2><a href="./movie-1027.html">美猿王大闹天宫</a></h2>
+    <p>2027 · 电影 · 中国大陆 · 科幻 / 动作</p>
+  </div>
+  <a class="button-light" href="./movie-1027.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="阿戈斯蒂诺" data-year="2027" data-type="电影" data-region="意大利" data-search="阿戈斯蒂诺 意大利 剧情 / 传记 / 历史 雕塑家 文艺复兴 艺术与权力 心理刻画">
+  <span class="rank-index">16</span>
+  <img src="./10.jpg" alt="阿戈斯蒂诺" loading="lazy">
+  <div>
+    <h2><a href="./movie-0910.html">阿戈斯蒂诺</a></h2>
+    <p>2027 · 电影 · 意大利 · 剧情 / 传记 / 历史</p>
+  </div>
+  <a class="button-light" href="./movie-0910.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="正欲" data-year="2027" data-type="剧集" data-region="日本" data-search="正欲 日本 伦理, 剧情 欲望 规训 反叛">
+  <span class="rank-index">17</span>
+  <img src="./129.jpg" alt="正欲" loading="lazy">
+  <div>
+    <h2><a href="./movie-0429.html">正欲</a></h2>
+    <p>2027 · 剧集 · 日本 · 伦理, 剧情</p>
+  </div>
+  <a class="button-light" href="./movie-0429.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="来去美国2" data-year="2027" data-type="电影" data-region="美国" data-search="来去美国2 美国 喜剧、冒险、家庭 续集 非法移民 逆向文化冲击 公路">
+  <span class="rank-index">18</span>
+  <img src="./76.jpg" alt="来去美国2" loading="lazy">
+  <div>
+    <h2><a href="./movie-1576.html">来去美国2</a></h2>
+    <p>2027 · 电影 · 美国 · 喜剧、冒险、家庭</p>
+  </div>
+  <a class="button-light" href="./movie-1576.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="看不见的月亮" data-year="2027" data-type="电影" data-region="中国大陆" data-search="看不见的月亮 中国大陆 悬疑, 科幻 月球基地 集体失明 信号中断 密室推理">
+  <span class="rank-index">19</span>
+  <img src="./116.jpg" alt="看不见的月亮" loading="lazy">
+  <div>
+    <h2><a href="./movie-1916.html">看不见的月亮</a></h2>
+    <p>2027 · 电影 · 中国大陆 · 悬疑, 科幻</p>
+  </div>
+  <a class="button-light" href="./movie-1916.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="智力测试" data-year="2027" data-type="电影" data-region="德国" data-search="智力测试 德国 科幻惊悚 反乌托邦 优生学 考试 阶层">
+  <span class="rank-index">20</span>
+  <img src="./17.jpg" alt="智力测试" loading="lazy">
+  <div>
+    <h2><a href="./movie-1667.html">智力测试</a></h2>
+    <p>2027 · 电影 · 德国 · 科幻惊悚</p>
+  </div>
+  <a class="button-light" href="./movie-1667.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="这地球" data-year="2027" data-type="电影" data-region="英国" data-search="这地球 英国 科幻 / 悬疑 / 哲学 模拟世界 矩阵重启 觉醒 黑色幽默 存在主义">
+  <span class="rank-index">21</span>
+  <img src="./23.jpg" alt="这地球" loading="lazy">
+  <div>
+    <h2><a href="./movie-1373.html">这地球</a></h2>
+    <p>2027 · 电影 · 英国 · 科幻 / 悬疑 / 哲学</p>
+  </div>
+  <a class="button-light" href="./movie-1373.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="七星幻蝶墓" data-year="2027" data-type="电影" data-region="日本" data-search="七星幻蝶墓 日本 悬疑， 恐怖， 奇幻 古墓解密 蝴蝶诅咒 考古惊悚">
+  <span class="rank-index">22</span>
+  <img src="./57.jpg" alt="七星幻蝶墓" loading="lazy">
+  <div>
+    <h2><a href="./movie-0207.html">七星幻蝶墓</a></h2>
+    <p>2027 · 电影 · 日本 · 悬疑， 恐怖， 奇幻</p>
+  </div>
+  <a class="button-light" href="./movie-0207.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="秋之回忆2" data-year="2027" data-type="电影" data-region="日本" data-search="秋之回忆2 日本 爱情 / 剧情 纯爱 遗憾 记忆 清新治愈">
+  <span class="rank-index">23</span>
+  <img src="./48.jpg" alt="秋之回忆2" loading="lazy">
+  <div>
+    <h2><a href="./movie-0348.html">秋之回忆2</a></h2>
+    <p>2027 · 电影 · 日本 · 爱情 / 剧情</p>
+  </div>
+  <a class="button-light" href="./movie-0348.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="走山" data-year="2027" data-type="电影" data-region="中国" data-search="走山 中国 悬疑冒险 山村 奇闻 失踪 民俗 反转">
+  <span class="rank-index">24</span>
+  <img src="./50.jpg" alt="走山" loading="lazy">
+  <div>
+    <h2><a href="./movie-0500.html">走山</a></h2>
+    <p>2027 · 电影 · 中国 · 悬疑冒险</p>
+  </div>
+  <a class="button-light" href="./movie-0500.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="妖天下" data-year="2027" data-type="电视剧" data-region="中国大陆" data-search="妖天下 中国大陆 奇幻 / 古装 捉妖 大唐 悬疑 热血">
+  <span class="rank-index">25</span>
+  <img src="./51.jpg" alt="妖天下" loading="lazy">
+  <div>
+    <h2><a href="./movie-1251.html">妖天下</a></h2>
+    <p>2027 · 电视剧 · 中国大陆 · 奇幻 / 古装</p>
+  </div>
+  <a class="button-light" href="./movie-1251.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="芳华" data-year="2027" data-type="电影" data-region="中国大陆" data-search="芳华 中国大陆 剧情 / 文艺 / 青春 文工团 年代 错位人生 冯小刚风格">
+  <span class="rank-index">26</span>
+  <img src="./108.jpg" alt="芳华" loading="lazy">
+  <div>
+    <h2><a href="./movie-0558.html">芳华</a></h2>
+    <p>2027 · 电影 · 中国大陆 · 剧情 / 文艺 / 青春</p>
+  </div>
+  <a class="button-light" href="./movie-0558.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="蛇蝎美人" data-year="2027" data-type="电影" data-region="法国" data-search="蛇蝎美人 法国 惊悚 / 犯罪 / 情色 蛇蝎美人 黑色电影 反转 女性复仇">
+  <span class="rank-index">27</span>
+  <img src="./49.jpg" alt="蛇蝎美人" loading="lazy">
+  <div>
+    <h2><a href="./movie-0799.html">蛇蝎美人</a></h2>
+    <p>2027 · 电影 · 法国 · 惊悚 / 犯罪 / 情色</p>
+  </div>
+  <a class="button-light" href="./movie-0799.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="流水迢迢" data-year="2027" data-type="电视剧" data-region="中国大陆" data-search="流水迢迢 中国大陆 古装 / 爱情 / 权谋 江湖 朝堂 世家 复仇 虐恋">
+  <span class="rank-index">28</span>
+  <img src="./95.jpg" alt="流水迢迢" loading="lazy">
+  <div>
+    <h2><a href="./movie-0395.html">流水迢迢</a></h2>
+    <p>2027 · 电视剧 · 中国大陆 · 古装 / 爱情 / 权谋</p>
+  </div>
+  <a class="button-light" href="./movie-0395.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="世上最美的女孩" data-year="2027" data-type="电影" data-region="德国" data-search="世上最美的女孩 德国 剧情， 家庭， 喜剧 童星 整容 母女 媒体 成长">
+  <span class="rank-index">29</span>
+  <img src="./27.jpg" alt="世上最美的女孩" loading="lazy">
+  <div>
+    <h2><a href="./movie-0627.html">世上最美的女孩</a></h2>
+    <p>2027 · 电影 · 德国 · 剧情， 家庭， 喜剧</p>
+  </div>
+  <a class="button-light" href="./movie-0627.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="有机体复活实验" data-year="2027" data-type="电影" data-region="德国 / 奥地利" data-search="有机体复活实验 德国 / 奥地利 科幻 / 惊悚 / 悬疑 赛博朋克 人体改造 意识上传 伦理恐惧">
+  <span class="rank-index">30</span>
+  <img src="./17.jpg" alt="有机体复活实验" loading="lazy">
+  <div>
+    <h2><a href="./movie-0167.html">有机体复活实验</a></h2>
+    <p>2027 · 电影 · 德国 / 奥地利 · 科幻 / 惊悚 / 悬疑</p>
+  </div>
+  <a class="button-light" href="./movie-0167.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="战国妖姬" data-year="2027" data-type="动画" data-region="日本" data-search="战国妖姬 日本 历史 / 奇幻 / 战争 战国 女忍者 妖术 乱世 百合">
+  <span class="rank-index">31</span>
+  <img src="./84.jpg" alt="战国妖姬" loading="lazy">
+  <div>
+    <h2><a href="./movie-1584.html">战国妖姬</a></h2>
+    <p>2027 · 动画 · 日本 · 历史 / 奇幻 / 战争</p>
+  </div>
+  <a class="button-light" href="./movie-1584.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="异类战神" data-year="2027" data-type="电影" data-region="美国" data-search="异类战神 美国 动作, 科幻, 超级英雄 基因改造 反英雄 近身格斗 黑色幽默">
+  <span class="rank-index">32</span>
+  <img src="./17.jpg" alt="异类战神" loading="lazy">
+  <div>
+    <h2><a href="./movie-0017.html">异类战神</a></h2>
+    <p>2027 · 电影 · 美国 · 动作, 科幻, 超级英雄</p>
+  </div>
+  <a class="button-light" href="./movie-0017.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="墨西哥人的宫殿" data-year="2027" data-type="电影" data-region="墨西哥/西班牙" data-search="墨西哥人的宫殿 墨西哥/西班牙 魔幻现实主义 建筑 移民 地底世界 阿兹特克 阶级">
+  <span class="rank-index">33</span>
+  <img src="./85.jpg" alt="墨西哥人的宫殿" loading="lazy">
+  <div>
+    <h2><a href="./movie-1885.html">墨西哥人的宫殿</a></h2>
+    <p>2027 · 电影 · 墨西哥/西班牙 · 魔幻现实主义</p>
+  </div>
+  <a class="button-light" href="./movie-1885.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="女人的秘密" data-year="2027" data-type="剧集" data-region="韩国" data-search="女人的秘密 韩国 剧情, 悬疑, 同性 换脸 豪门 复仇 姬情 狗血">
+  <span class="rank-index">34</span>
+  <img src="./75.jpg" alt="女人的秘密" loading="lazy">
+  <div>
+    <h2><a href="./movie-1425.html">女人的秘密</a></h2>
+    <p>2027 · 剧集 · 韩国 · 剧情, 悬疑, 同性</p>
+  </div>
+  <a class="button-light" href="./movie-1425.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="白魔鬼" data-year="2027" data-type="电影" data-region="美国 / 墨西哥" data-search="白魔鬼 美国 / 墨西哥 恐怖 / 心理 邪教 沙漠 集体幻觉 白色粉末 朝圣者">
+  <span class="rank-index">35</span>
+  <img src="./55.jpg" alt="白魔鬼" loading="lazy">
+  <div>
+    <h2><a href="./movie-1705.html">白魔鬼</a></h2>
+    <p>2027 · 电影 · 美国 / 墨西哥 · 恐怖 / 心理</p>
+  </div>
+  <a class="button-light" href="./movie-1705.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="恶灵古堡：最终章" data-year="2027" data-type="电影" data-region="美国 / 德国" data-search="恶灵古堡：最终章 美国 / 德国 动作 / 科幻 / 恐怖 游戏改编 丧尸 大结局 末世">
+  <span class="rank-index">36</span>
+  <img src="./101.jpg" alt="恶灵古堡：最终章" loading="lazy">
+  <div>
+    <h2><a href="./movie-1601.html">恶灵古堡：最终章</a></h2>
+    <p>2027 · 电影 · 美国 / 德国 · 动作 / 科幻 / 恐怖</p>
+  </div>
+  <a class="button-light" href="./movie-1601.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="明黄禁色" data-year="2027" data-type="电影" data-region="日本" data-search="明黄禁色 日本 爱情， 剧情， 历史 美学 禁忌之恋 浮世绘">
+  <span class="rank-index">37</span>
+  <img src="./49.jpg" alt="明黄禁色" loading="lazy">
+  <div>
+    <h2><a href="./movie-1849.html">明黄禁色</a></h2>
+    <p>2027 · 电影 · 日本 · 爱情， 剧情， 历史</p>
+  </div>
+  <a class="button-light" href="./movie-1849.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="兵权" data-year="2027" data-type="剧集" data-region="中国大陆" data-search="兵权 中国大陆 历史 / 战争 / 权谋 五代十国 杯酒释兵权前传 禁军">
+  <span class="rank-index">38</span>
+  <img src="./66.jpg" alt="兵权" loading="lazy">
+  <div>
+    <h2><a href="./movie-1566.html">兵权</a></h2>
+    <p>2027 · 剧集 · 中国大陆 · 历史 / 战争 / 权谋</p>
+  </div>
+  <a class="button-light" href="./movie-1566.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="变调摇滚乐" data-year="2027" data-type="电影" data-region="中国大陆" data-search="变调摇滚乐 中国大陆 剧情 / 音乐 摇滚 失聪 抗争 手语 乐队">
+  <span class="rank-index">39</span>
+  <img src="./58.jpg" alt="变调摇滚乐" loading="lazy">
+  <div>
+    <h2><a href="./movie-0058.html">变调摇滚乐</a></h2>
+    <p>2027 · 电影 · 中国大陆 · 剧情 / 音乐</p>
+  </div>
+  <a class="button-light" href="./movie-0058.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="霸王之王" data-year="2027" data-type="网络电影" data-region="中国大陆" data-search="霸王之王 中国大陆 动作 / 古装 武侠 复仇 垄断 兵器 逆袭">
+  <span class="rank-index">40</span>
+  <img src="./123.jpg" alt="霸王之王" loading="lazy">
+  <div>
+    <h2><a href="./movie-0273.html">霸王之王</a></h2>
+    <p>2027 · 网络电影 · 中国大陆 · 动作 / 古装</p>
+  </div>
+  <a class="button-light" href="./movie-0273.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="广岛见证者" data-year="2027" data-type="电影" data-region="日本/美国" data-search="广岛见证者 日本/美国 剧情/历史/战争 原子弹 幸存者 记者 和平 真实改编">
+  <span class="rank-index">41</span>
+  <img src="./148.jpg" alt="广岛见证者" loading="lazy">
+  <div>
+    <h2><a href="./movie-0598.html">广岛见证者</a></h2>
+    <p>2027 · 电影 · 日本/美国 · 剧情/历史/战争</p>
+  </div>
+  <a class="button-light" href="./movie-0598.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="恶魔来到堪萨斯城" data-year="2027" data-type="电影" data-region="美国" data-search="恶魔来到堪萨斯城 美国 犯罪， 惊悚 黑帮 圣经 屠戮">
+  <span class="rank-index">42</span>
+  <img src="./9.jpg" alt="恶魔来到堪萨斯城" loading="lazy">
+  <div>
+    <h2><a href="./movie-1659.html">恶魔来到堪萨斯城</a></h2>
+    <p>2027 · 电影 · 美国 · 犯罪， 惊悚</p>
+  </div>
+  <a class="button-light" href="./movie-1659.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="虎鲨王" data-year="2027" data-type="电影" data-region="中国大陆 / 澳大利亚" data-search="虎鲨王 中国大陆 / 澳大利亚 动作 / 冒险 / 灾难 海洋 鲨鱼 变异 硬汉 特效">
+  <span class="rank-index">43</span>
+  <img src="./125.jpg" alt="虎鲨王" loading="lazy">
+  <div>
+    <h2><a href="./movie-0575.html">虎鲨王</a></h2>
+    <p>2027 · 电影 · 中国大陆 / 澳大利亚 · 动作 / 冒险 / 灾难</p>
+  </div>
+  <a class="button-light" href="./movie-0575.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="当猪起飞" data-year="2027" data-type="电影" data-region="美国" data-search="当猪起飞 美国 动画 / 奇幻 / 冒险 猪 飞行 诅咒 农场">
+  <span class="rank-index">44</span>
+  <img src="./39.jpg" alt="当猪起飞" loading="lazy">
+  <div>
+    <h2><a href="./movie-0489.html">当猪起飞</a></h2>
+    <p>2027 · 电影 · 美国 · 动画 / 奇幻 / 冒险</p>
+  </div>
+  <a class="button-light" href="./movie-0489.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="怨鬼之家" data-year="2026" data-type="电影" data-region="泰国" data-search="怨鬼之家 泰国 恐怖 家庭 亲情 诅咒">
+  <span class="rank-index">45</span>
+  <img src="./35.jpg" alt="怨鬼之家" loading="lazy">
+  <div>
+    <h2><a href="./movie-0635.html">怨鬼之家</a></h2>
+    <p>2026 · 电影 · 泰国 · 恐怖</p>
+  </div>
+  <a class="button-light" href="./movie-0635.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="洛奇6：永远的拳王国语" data-year="2026" data-type="电影" data-region="美国" data-search="洛奇6：永远的拳王国语 美国 剧情, 运动, 传记 情怀 老年洛奇 传承 励志">
+  <span class="rank-index">46</span>
+  <img src="./106.jpg" alt="洛奇6：永远的拳王国语" loading="lazy">
+  <div>
+    <h2><a href="./movie-1756.html">洛奇6：永远的拳王国语</a></h2>
+    <p>2026 · 电影 · 美国 · 剧情, 运动, 传记</p>
+  </div>
+  <a class="button-light" href="./movie-1756.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="掌柜哥哥你走开" data-year="2026" data-type="剧集" data-region="中国大陆" data-search="掌柜哥哥你走开 中国大陆 古装 / 喜剧 / 爱情 伪骨科 欢喜冤家 兄妹争产 明朝商战 甜爽">
+  <span class="rank-index">47</span>
+  <img src="./119.jpg" alt="掌柜哥哥你走开" loading="lazy">
+  <div>
+    <h2><a href="./movie-0569.html">掌柜哥哥你走开</a></h2>
+    <p>2026 · 剧集 · 中国大陆 · 古装 / 喜剧 / 爱情</p>
+  </div>
+  <a class="button-light" href="./movie-0569.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="大地之主" data-year="2026" data-type="电影" data-region="美国" data-search="大地之主 美国 科幻、冒险 地心探险 远古生物 生态灾难 巨型机甲">
+  <span class="rank-index">48</span>
+  <img src="./119.jpg" alt="大地之主" loading="lazy">
+  <div>
+    <h2><a href="./movie-0869.html">大地之主</a></h2>
+    <p>2026 · 电影 · 美国 · 科幻、冒险</p>
+  </div>
+  <a class="button-light" href="./movie-0869.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="创业小子" data-year="2026" data-type="剧集" data-region="中国大陆" data-search="创业小子 中国大陆 剧情 / 喜剧 大学生创业 失败学 友情 现实">
+  <span class="rank-index">49</span>
+  <img src="./67.jpg" alt="创业小子" loading="lazy">
+  <div>
+    <h2><a href="./movie-1117.html">创业小子</a></h2>
+    <p>2026 · 剧集 · 中国大陆 · 剧情 / 喜剧</p>
+  </div>
+  <a class="button-light" href="./movie-1117.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="潜艇总动员：冒险岛" data-year="2026" data-type="电影" data-region="美国" data-search="潜艇总动员：冒险岛 美国 动画、冒险、科幻 潜艇 深海 未知岛屿 少年 环保">
+  <span class="rank-index">50</span>
+  <img src="./82.jpg" alt="潜艇总动员：冒险岛" loading="lazy">
+  <div>
+    <h2><a href="./movie-1132.html">潜艇总动员：冒险岛</a></h2>
+    <p>2026 · 电影 · 美国 · 动画、冒险、科幻</p>
+  </div>
+  <a class="button-light" href="./movie-1132.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="蜜桃女孩" data-year="2026" data-type="电影" data-region="日本" data-search="蜜桃女孩 日本 爱情, 青春, 漫画改编 校园 校花 真心 三角恋 友谊">
+  <span class="rank-index">51</span>
+  <img src="./116.jpg" alt="蜜桃女孩" loading="lazy">
+  <div>
+    <h2><a href="./movie-0566.html">蜜桃女孩</a></h2>
+    <p>2026 · 电影 · 日本 · 爱情, 青春, 漫画改编</p>
+  </div>
+  <a class="button-light" href="./movie-0566.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="神圣的女人" data-year="2026" data-type="电影" data-region="中国大陆" data-search="神圣的女人 中国大陆 剧情 / 家庭 信仰 女性 乡村 牺牲 母爱">
+  <span class="rank-index">52</span>
+  <img src="./64.jpg" alt="神圣的女人" loading="lazy">
+  <div>
+    <h2><a href="./movie-0214.html">神圣的女人</a></h2>
+    <p>2026 · 电影 · 中国大陆 · 剧情 / 家庭</p>
+  </div>
+  <a class="button-light" href="./movie-0214.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="血连环" data-year="2026" data-type="电影" data-region="中国香港" data-search="血连环 中国香港 犯罪 / 悬疑 / 动作 连环杀手 复仇 黑吃黑 反转">
+  <span class="rank-index">53</span>
+  <img src="./93.jpg" alt="血连环" loading="lazy">
+  <div>
+    <h2><a href="./movie-0543.html">血连环</a></h2>
+    <p>2026 · 电影 · 中国香港 · 犯罪 / 悬疑 / 动作</p>
+  </div>
+  <a class="button-light" href="./movie-0543.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="飙速同行：极限单车之旅" data-year="2026" data-type="电影" data-region="美国" data-search="飙速同行：极限单车之旅 美国 动作， 冒险， 运动 山地车 友谊 极限运动 逃亡 成长">
+  <span class="rank-index">54</span>
+  <img src="./17.jpg" alt="飙速同行：极限单车之旅" loading="lazy">
+  <div>
+    <h2><a href="./movie-0617.html">飙速同行：极限单车之旅</a></h2>
+    <p>2026 · 电影 · 美国 · 动作， 冒险， 运动</p>
+  </div>
+  <a class="button-light" href="./movie-0617.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="花心梦里人" data-year="2026" data-type="电影" data-region="中国香港" data-search="花心梦里人 中国香港 爱情 / 喜剧 都市情感 渣男成长 轻松喜剧">
+  <span class="rank-index">55</span>
+  <img src="./47.jpg" alt="花心梦里人" loading="lazy">
+  <div>
+    <h2><a href="./movie-1397.html">花心梦里人</a></h2>
+    <p>2026 · 电影 · 中国香港 · 爱情 / 喜剧</p>
+  </div>
+  <a class="button-light" href="./movie-1397.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="我的师兄太强了" data-year="2026" data-type="剧集" data-region="中国大陆" data-search="我的师兄太强了 中国大陆 古装 / 奇幻 / 喜剧 修仙 扮猪吃老虎 废柴流 守护 反差">
+  <span class="rank-index">56</span>
+  <img src="./128.jpg" alt="我的师兄太强了" loading="lazy">
+  <div>
+    <h2><a href="./movie-1478.html">我的师兄太强了</a></h2>
+    <p>2026 · 剧集 · 中国大陆 · 古装 / 奇幻 / 喜剧</p>
+  </div>
+  <a class="button-light" href="./movie-1478.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="外科医生马丁 第四季" data-year="2026" data-type="电视剧" data-region="英国" data-search="外科医生马丁 第四季 英国 剧情，喜剧，医学 英式冷幽默 高功能自闭症 乡村医疗 毒舌医生 医患关系">
+  <span class="rank-index">57</span>
+  <img src="./107.jpg" alt="外科医生马丁 第四季" loading="lazy">
+  <div>
+    <h2><a href="./movie-1757.html">外科医生马丁 第四季</a></h2>
+    <p>2026 · 电视剧 · 英国 · 剧情，喜剧，医学</p>
+  </div>
+  <a class="button-light" href="./movie-1757.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="鼠祸3围攻巴黎" data-year="2026" data-type="电影" data-region="法国" data-search="鼠祸3围攻巴黎 法国 恐怖 / 科幻 / 灾难 变异鼠群 巴黎 末日 生物武器">
+  <span class="rank-index">58</span>
+  <img src="./77.jpg" alt="鼠祸3围攻巴黎" loading="lazy">
+  <div>
+    <h2><a href="./movie-0827.html">鼠祸3围攻巴黎</a></h2>
+    <p>2026 · 电影 · 法国 · 恐怖 / 科幻 / 灾难</p>
+  </div>
+  <a class="button-light" href="./movie-0827.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="干花" data-year="2026" data-type="电影" data-region="中国大陆" data-search="干花 中国大陆 爱情 爱情 悬疑 博物馆 修复师 记忆">
+  <span class="rank-index">59</span>
+  <img src="./98.jpg" alt="干花" loading="lazy">
+  <div>
+    <h2><a href="./movie-0998.html">干花</a></h2>
+    <p>2026 · 电影 · 中国大陆 · 爱情</p>
+  </div>
+  <a class="button-light" href="./movie-0998.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="超能侠" data-year="2026" data-type="电影" data-region="美国" data-search="超能侠 美国 超级英雄 反套路 废柴英雄 中年危机 黑色幽默 低成本">
+  <span class="rank-index">60</span>
+  <img src="./28.jpg" alt="超能侠" loading="lazy">
+  <div>
+    <h2><a href="./movie-0928.html">超能侠</a></h2>
+    <p>2026 · 电影 · 美国 · 超级英雄</p>
+  </div>
+  <a class="button-light" href="./movie-0928.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="筑得到的幸福" data-year="2026" data-type="电视剧 / 剧情" data-region="中国香港" data-search="筑得到的幸福 中国香港 剧情 / 家庭 / 励志 公屋 建筑工人 蜗居 父女情 香港精神">
+  <span class="rank-index">61</span>
+  <img src="./26.jpg" alt="筑得到的幸福" loading="lazy">
+  <div>
+    <h2><a href="./movie-0176.html">筑得到的幸福</a></h2>
+    <p>2026 · 电视剧 / 剧情 · 中国香港 · 剧情 / 家庭 / 励志</p>
+  </div>
+  <a class="button-light" href="./movie-0176.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="爱之咒：黑色婚礼" data-year="2026" data-type="电影" data-region="西班牙" data-search="爱之咒：黑色婚礼 西班牙 恐怖 / 爱情 哥特惊悚 家族诅咒 反转新娘">
+  <span class="rank-index">62</span>
+  <img src="./101.jpg" alt="爱之咒：黑色婚礼" loading="lazy">
+  <div>
+    <h2><a href="./movie-1301.html">爱之咒：黑色婚礼</a></h2>
+    <p>2026 · 电影 · 西班牙 · 恐怖 / 爱情</p>
+  </div>
+  <a class="button-light" href="./movie-1301.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="青春欲火" data-year="2026" data-type="电影" data-region="中国香港" data-search="青春欲火 中国香港 剧情 / 灾难 / 青春 消防员 迷茫青年 烈火营救 成长">
+  <span class="rank-index">63</span>
+  <img src="./6.jpg" alt="青春欲火" loading="lazy">
+  <div>
+    <h2><a href="./movie-1656.html">青春欲火</a></h2>
+    <p>2026 · 电影 · 中国香港 · 剧情 / 灾难 / 青春</p>
+  </div>
+  <a class="button-light" href="./movie-1656.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="枪兵" data-year="2026" data-type="电影" data-region="中国大陆" data-search="枪兵 中国大陆 动作 / 悬疑 / 犯罪 东北 犯罪片 枪械 兄弟情 写实风格">
+  <span class="rank-index">64</span>
+  <img src="./19.jpg" alt="枪兵" loading="lazy">
+  <div>
+    <h2><a href="./movie-1969.html">枪兵</a></h2>
+    <p>2026 · 电影 · 中国大陆 · 动作 / 悬疑 / 犯罪</p>
+  </div>
+  <a class="button-light" href="./movie-1969.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="解除好友2：暗网" data-year="2026" data-type="电影" data-region="美国" data-search="解除好友2：暗网 美国 恐怖 / 惊悚 / 犯罪 桌面电影 暗网 直播杀人 社会实验 高能">
+  <span class="rank-index">65</span>
+  <img src="./20.jpg" alt="解除好友2：暗网" loading="lazy">
+  <div>
+    <h2><a href="./movie-0920.html">解除好友2：暗网</a></h2>
+    <p>2026 · 电影 · 美国 · 恐怖 / 惊悚 / 犯罪</p>
+  </div>
+  <a class="button-light" href="./movie-0920.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="龙时代" data-year="2026" data-type="剧集" data-region="中国大陆" data-search="龙时代 中国大陆 动画 / 奇幻 东方玄幻 龙族 少年成长">
+  <span class="rank-index">66</span>
+  <img src="./54.jpg" alt="龙时代" loading="lazy">
+  <div>
+    <h2><a href="./movie-1254.html">龙时代</a></h2>
+    <p>2026 · 剧集 · 中国大陆 · 动画 / 奇幻</p>
+  </div>
+  <a class="button-light" href="./movie-1254.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="大鹰啸" data-year="2026" data-type="电影" data-region="美国" data-search="大鹰啸 美国 动作, 战争, 冒险 空军 王牌飞行员 夺宝 二战">
+  <span class="rank-index">67</span>
+  <img src="./115.jpg" alt="大鹰啸" loading="lazy">
+  <div>
+    <h2><a href="./movie-1015.html">大鹰啸</a></h2>
+    <p>2026 · 电影 · 美国 · 动作, 战争, 冒险</p>
+  </div>
+  <a class="button-light" href="./movie-1015.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="国会" data-year="2026" data-type="剧集" data-region="中国大陆" data-search="国会 中国大陆 悬疑, 政治 密室 孤岛 投票 规则怪谈">
+  <span class="rank-index">68</span>
+  <img src="./33.jpg" alt="国会" loading="lazy">
+  <div>
+    <h2><a href="./movie-1683.html">国会</a></h2>
+    <p>2026 · 剧集 · 中国大陆 · 悬疑, 政治</p>
+  </div>
+  <a class="button-light" href="./movie-1683.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="盲眼杀机" data-year="2026" data-type="电影" data-region="中国香港 / 美国" data-search="盲眼杀机 中国香港 / 美国 动作 / 科幻 盲人特工 声呐格斗 义眼 高科技 暴力美学">
+  <span class="rank-index">69</span>
+  <img src="./117.jpg" alt="盲眼杀机" loading="lazy">
+  <div>
+    <h2><a href="./movie-1917.html">盲眼杀机</a></h2>
+    <p>2026 · 电影 · 中国香港 / 美国 · 动作 / 科幻</p>
+  </div>
+  <a class="button-light" href="./movie-1917.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="间谍亚契第七季" data-year="2026" data-type="剧集" data-region="美国" data-search="间谍亚契第七季 美国 动画 / 喜剧 / 动作 特工吐槽 无厘头 办公室政治">
+  <span class="rank-index">70</span>
+  <img src="./38.jpg" alt="间谍亚契第七季" loading="lazy">
+  <div>
+    <h2><a href="./movie-0938.html">间谍亚契第七季</a></h2>
+    <p>2026 · 剧集 · 美国 · 动画 / 喜剧 / 动作</p>
+  </div>
+  <a class="button-light" href="./movie-0938.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="弗兰肯斯坦" data-year="2026" data-type="剧集" data-region="英国" data-search="弗兰肯斯坦 英国 科幻， 恐怖， 剧情 科学怪人 伦理困境 哥特美学 人造生命">
+  <span class="rank-index">71</span>
+  <img src="./96.jpg" alt="弗兰肯斯坦" loading="lazy">
+  <div>
+    <h2><a href="./movie-1146.html">弗兰肯斯坦</a></h2>
+    <p>2026 · 剧集 · 英国 · 科幻， 恐怖， 剧情</p>
+  </div>
+  <a class="button-light" href="./movie-1146.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="驸马不要啊 动态漫第三季" data-year="2026" data-type="动态漫画" data-region="中国" data-search="驸马不要啊 动态漫第三季 中国 古装 / 搞笑 / 爱情 动态漫 甜宠 反套路 公主">
+  <span class="rank-index">72</span>
+  <img src="./20.jpg" alt="驸马不要啊 动态漫第三季" loading="lazy">
+  <div>
+    <h2><a href="./movie-1220.html">驸马不要啊 动态漫第三季</a></h2>
+    <p>2026 · 动态漫画 · 中国 · 古装 / 搞笑 / 爱情</p>
+  </div>
+  <a class="button-light" href="./movie-1220.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="少年岳飞传奇" data-year="2026" data-type="动画电影" data-region="中国" data-search="少年岳飞传奇 中国 历史 / 动作 / 成长 少年英雄 北宋末年 拜师学艺 精忠报国">
+  <span class="rank-index">73</span>
+  <img src="./41.jpg" alt="少年岳飞传奇" loading="lazy">
+  <div>
+    <h2><a href="./movie-0641.html">少年岳飞传奇</a></h2>
+    <p>2026 · 动画电影 · 中国 · 历史 / 动作 / 成长</p>
+  </div>
+  <a class="button-light" href="./movie-0641.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="屋顶上的轻骑兵" data-year="2026" data-type="电影" data-region="法国" data-search="屋顶上的轻骑兵 法国 剧情/历史/冒险 古典主义 骑士精神 瘟疫时期">
+  <span class="rank-index">74</span>
+  <img src="./125.jpg" alt="屋顶上的轻骑兵" loading="lazy">
+  <div>
+    <h2><a href="./movie-1475.html">屋顶上的轻骑兵</a></h2>
+    <p>2026 · 电影 · 法国 · 剧情/历史/冒险</p>
+  </div>
+  <a class="button-light" href="./movie-1475.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="超人第三集" data-year="2026" data-type="电影" data-region="美国" data-search="超人第三集 美国 超级英雄 / 动作 / 冒险 超人 氪星 黑暗面 分裂人格 史诗对决">
+  <span class="rank-index">75</span>
+  <img src="./82.jpg" alt="超人第三集" loading="lazy">
+  <div>
+    <h2><a href="./movie-0682.html">超人第三集</a></h2>
+    <p>2026 · 电影 · 美国 · 超级英雄 / 动作 / 冒险</p>
+  </div>
+  <a class="button-light" href="./movie-0682.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="超时空监狱" data-year="2026" data-type="剧集" data-region="中国大陆" data-search="超时空监狱 中国大陆 科幻 / 悬疑 时间循环 监狱风云 越狱">
+  <span class="rank-index">76</span>
+  <img src="./93.jpg" alt="超时空监狱" loading="lazy">
+  <div>
+    <h2><a href="./movie-0693.html">超时空监狱</a></h2>
+    <p>2026 · 剧集 · 中国大陆 · 科幻 / 悬疑</p>
+  </div>
+  <a class="button-light" href="./movie-0693.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="双人军团" data-year="2026" data-type="剧集" data-region="韩国" data-search="双人军团 韩国 动作犯罪 双雄 复仇 黑吃黑 兄弟情">
+  <span class="rank-index">77</span>
+  <img src="./19.jpg" alt="双人军团" loading="lazy">
+  <div>
+    <h2><a href="./movie-1669.html">双人军团</a></h2>
+    <p>2026 · 剧集 · 韩国 · 动作犯罪</p>
+  </div>
+  <a class="button-light" href="./movie-1669.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="粗犷派建筑师" data-year="2026" data-type="电影" data-region="美国" data-search="粗犷派建筑师 美国 剧情 / 惊悚 建筑美学 阶级对立 水泥森林 心理操控">
+  <span class="rank-index">78</span>
+  <img src="./72.jpg" alt="粗犷派建筑师" loading="lazy">
+  <div>
+    <h2><a href="./movie-1872.html">粗犷派建筑师</a></h2>
+    <p>2026 · 电影 · 美国 · 剧情 / 惊悚</p>
+  </div>
+  <a class="button-light" href="./movie-1872.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="哈兰镇之战" data-year="2026" data-type="电视剧" data-region="美国" data-search="哈兰镇之战 美国 科幻，西部，悬疑 时间循环 小镇 枪战 殖民">
+  <span class="rank-index">79</span>
+  <img src="./87.jpg" alt="哈兰镇之战" loading="lazy">
+  <div>
+    <h2><a href="./movie-0537.html">哈兰镇之战</a></h2>
+    <p>2026 · 电视剧 · 美国 · 科幻，西部，悬疑</p>
+  </div>
+  <a class="button-light" href="./movie-0537.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="宇宙奇舰泰坦号" data-year="2026" data-type="电影" data-region="美国" data-search="宇宙奇舰泰坦号 美国 科幻 / 冒险 太空歌剧 AI叛乱 巨物美学">
+  <span class="rank-index">80</span>
+  <img src="./122.jpg" alt="宇宙奇舰泰坦号" loading="lazy">
+  <div>
+    <h2><a href="./movie-0872.html">宇宙奇舰泰坦号</a></h2>
+    <p>2026 · 电影 · 美国 · 科幻 / 冒险</p>
+  </div>
+  <a class="button-light" href="./movie-0872.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="加勒比海盗2:聚魂棺" data-year="2026" data-type="电影" data-region="美国" data-search="加勒比海盗2:聚魂棺 美国 动作, 奇幻, 冒险 海盗 诅咒 深海 宝藏">
+  <span class="rank-index">81</span>
+  <img src="./121.jpg" alt="加勒比海盗2:聚魂棺" loading="lazy">
+  <div>
+    <h2><a href="./movie-1471.html">加勒比海盗2:聚魂棺</a></h2>
+    <p>2026 · 电影 · 美国 · 动作, 奇幻, 冒险</p>
+  </div>
+  <a class="button-light" href="./movie-1471.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="一级危险" data-year="2026" data-type="电影" data-region="美国" data-search="一级危险 美国 动作，惊悚 特工 反恐 高概念 密室逃生">
+  <span class="rank-index">82</span>
+  <img src="./21.jpg" alt="一级危险" loading="lazy">
+  <div>
+    <h2><a href="./movie-1821.html">一级危险</a></h2>
+    <p>2026 · 电影 · 美国 · 动作，惊悚</p>
+  </div>
+  <a class="button-light" href="./movie-1821.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="绝密突围" data-year="2026" data-type="电影" data-region="中国大陆" data-search="绝密突围 中国大陆 动作, 战争, 谍战 押运 雪地狙击 孤胆英雄">
+  <span class="rank-index">83</span>
+  <img src="./147.jpg" alt="绝密突围" loading="lazy">
+  <div>
+    <h2><a href="./movie-0447.html">绝密突围</a></h2>
+    <p>2026 · 电影 · 中国大陆 · 动作, 战争, 谍战</p>
+  </div>
+  <a class="button-light" href="./movie-0447.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="我们的高校时代" data-year="2026" data-type="电视剧" data-region="中国大陆" data-search="我们的高校时代 中国大陆 青春、校园、怀旧 2008 高考 友情 暗恋">
+  <span class="rank-index">84</span>
+  <img src="./113.jpg" alt="我们的高校时代" loading="lazy">
+  <div>
+    <h2><a href="./movie-0563.html">我们的高校时代</a></h2>
+    <p>2026 · 电视剧 · 中国大陆 · 青春、校园、怀旧</p>
+  </div>
+  <a class="button-light" href="./movie-0563.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="辛巴达历险" data-year="2026" data-type="动画电影" data-region="美国 / 印度" data-search="辛巴达历险 美国 / 印度 动画 / 冒险 / 奇幻 海洋 神话 怪物 成长">
+  <span class="rank-index">85</span>
+  <img src="./15.jpg" alt="辛巴达历险" loading="lazy">
+  <div>
+    <h2><a href="./movie-1815.html">辛巴达历险</a></h2>
+    <p>2026 · 动画电影 · 美国 / 印度 · 动画 / 冒险 / 奇幻</p>
+  </div>
+  <a class="button-light" href="./movie-1815.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="平行世界物语" data-year="2026" data-type="剧集" data-region="日本" data-search="平行世界物语 日本 科幻 / 爱情 多重宇宙 选择 命运 单元剧">
+  <span class="rank-index">86</span>
+  <img src="./37.jpg" alt="平行世界物语" loading="lazy">
+  <div>
+    <h2><a href="./movie-1537.html">平行世界物语</a></h2>
+    <p>2026 · 剧集 · 日本 · 科幻 / 爱情</p>
+  </div>
+  <a class="button-light" href="./movie-1537.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="十的幂" data-year="2026" data-type="电影" data-region="美国" data-search="十的幂 美国 科幻、哲学、视觉 尺度变换 微观宇宙 平行现实 意识上传 粒子世界">
+  <span class="rank-index">87</span>
+  <img src="./67.jpg" alt="十的幂" loading="lazy">
+  <div>
+    <h2><a href="./movie-1417.html">十的幂</a></h2>
+    <p>2026 · 电影 · 美国 · 科幻、哲学、视觉</p>
+  </div>
+  <a class="button-light" href="./movie-1417.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="律政英雄特别版" data-year="2026" data-type="特别篇" data-region="日本" data-search="律政英雄特别版 日本 剧情, 律政, 悬疑 检察官 翻案 正义 团队 推理">
+  <span class="rank-index">88</span>
+  <img src="./62.jpg" alt="律政英雄特别版" loading="lazy">
+  <div>
+    <h2><a href="./movie-1862.html">律政英雄特别版</a></h2>
+    <p>2026 · 特别篇 · 日本 · 剧情, 律政, 悬疑</p>
+  </div>
+  <a class="button-light" href="./movie-1862.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="为您服务" data-year="2026" data-type="电影" data-region="中国大陆" data-search="为您服务 中国大陆 剧情 / 喜剧 / 社会 服务业 小人物 黑色幽默 现实 人性">
+  <span class="rank-index">89</span>
+  <img src="./32.jpg" alt="为您服务" loading="lazy">
+  <div>
+    <h2><a href="./movie-1082.html">为您服务</a></h2>
+    <p>2026 · 电影 · 中国大陆 · 剧情 / 喜剧 / 社会</p>
+  </div>
+  <a class="button-light" href="./movie-1082.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="放风通行证" data-year="2026" data-type="电视剧" data-region="美国" data-search="放风通行证 美国 喜剧， 剧情， 监狱 监狱生活 荒诞 黑帮 兄弟情 一周假期">
+  <span class="rank-index">90</span>
+  <img src="./119.jpg" alt="放风通行证" loading="lazy">
+  <div>
+    <h2><a href="./movie-1319.html">放风通行证</a></h2>
+    <p>2026 · 电视剧 · 美国 · 喜剧， 剧情， 监狱</p>
+  </div>
+  <a class="button-light" href="./movie-1319.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="新围棋少年" data-year="2026" data-type="剧集" data-region="中国" data-search="新围棋少年 中国 剧情, 竞技, 青春 围棋 师徒 人工智能">
+  <span class="rank-index">91</span>
+  <img src="./20.jpg" alt="新围棋少年" loading="lazy">
+  <div>
+    <h2><a href="./movie-1970.html">新围棋少年</a></h2>
+    <p>2026 · 剧集 · 中国 · 剧情, 竞技, 青春</p>
+  </div>
+  <a class="button-light" href="./movie-1970.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="我是歌手第三季" data-year="2026" data-type="电影" data-region="中国大陆" data-search="我是歌手第三季 中国大陆 音乐纪录片 真人秀幕后 代唱 声音造假 黑色喜剧">
+  <span class="rank-index">92</span>
+  <img src="./51.jpg" alt="我是歌手第三季" loading="lazy">
+  <div>
+    <h2><a href="./movie-1551.html">我是歌手第三季</a></h2>
+    <p>2026 · 电影 · 中国大陆 · 音乐纪录片</p>
+  </div>
+  <a class="button-light" href="./movie-1551.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="世贸中心" data-year="2026" data-type="电影" data-region="美国" data-search="世贸中心 美国 历史 / 灾难 / 剧情 9 11 真实事件改编 救援">
+  <span class="rank-index">93</span>
+  <img src="./138.jpg" alt="世贸中心" loading="lazy">
+  <div>
+    <h2><a href="./movie-0138.html">世贸中心</a></h2>
+    <p>2026 · 电影 · 美国 · 历史 / 灾难 / 剧情</p>
+  </div>
+  <a class="button-light" href="./movie-0138.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="深海极限" data-year="2026" data-type="电影" data-region="英国 / 美国" data-search="深海极限 英国 / 美国 动作, 惊悚, 科幻 深海怪兽 封闭空间 救援行动 人体改造">
+  <span class="rank-index">94</span>
+  <img src="./30.jpg" alt="深海极限" loading="lazy">
+  <div>
+    <h2><a href="./movie-0630.html">深海极限</a></h2>
+    <p>2026 · 电影 · 英国 / 美国 · 动作, 惊悚, 科幻</p>
+  </div>
+  <a class="button-light" href="./movie-0630.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="逃学威龙" data-year="2026" data-type="电影" data-region="中国香港" data-search="逃学威龙 中国香港 喜剧动作 卧底校园 怀旧 跨代际笑料">
+  <span class="rank-index">95</span>
+  <img src="./100.jpg" alt="逃学威龙" loading="lazy">
+  <div>
+    <h2><a href="./movie-1150.html">逃学威龙</a></h2>
+    <p>2026 · 电影 · 中国香港 · 喜剧动作</p>
+  </div>
+  <a class="button-light" href="./movie-1150.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="海底长征" data-year="2026" data-type="电影" data-region="中国大陆" data-search="海底长征 中国大陆 科幻, 冒险, 剧情 深海 长征 硬科幻 集体主义 求生">
+  <span class="rank-index">96</span>
+  <img src="./139.jpg" alt="海底长征" loading="lazy">
+  <div>
+    <h2><a href="./movie-1939.html">海底长征</a></h2>
+    <p>2026 · 电影 · 中国大陆 · 科幻, 冒险, 剧情</p>
+  </div>
+  <a class="button-light" href="./movie-1939.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="天衣行动" data-year="2026" data-type="电影" data-region="中国大陆" data-search="天衣行动 中国大陆 动作 / 谍战 / 悬疑 民国 奇技淫巧 密室破局">
+  <span class="rank-index">97</span>
+  <img src="./1.jpg" alt="天衣行动" loading="lazy">
+  <div>
+    <h2><a href="./movie-0601.html">天衣行动</a></h2>
+    <p>2026 · 电影 · 中国大陆 · 动作 / 谍战 / 悬疑</p>
+  </div>
+  <a class="button-light" href="./movie-0601.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="猪妖传" data-year="2026" data-type="电影" data-region="中国" data-search="猪妖传 中国 奇幻 / 古装 神话新编 妖怪逆袭 人妖情 视觉特效">
+  <span class="rank-index">98</span>
+  <img src="./6.jpg" alt="猪妖传" loading="lazy">
+  <div>
+    <h2><a href="./movie-1806.html">猪妖传</a></h2>
+    <p>2026 · 电影 · 中国 · 奇幻 / 古装</p>
+  </div>
+  <a class="button-light" href="./movie-1806.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="史诗电影" data-year="2026" data-type="电影" data-region="美国" data-search="史诗电影 美国 喜剧、恶搞、讽刺 恶搞 好莱坞 大片 解构 彩蛋">
+  <span class="rank-index">99</span>
+  <img src="./62.jpg" alt="史诗电影" loading="lazy">
+  <div>
+    <h2><a href="./movie-0212.html">史诗电影</a></h2>
+    <p>2026 · 电影 · 美国 · 喜剧、恶搞、讽刺</p>
+  </div>
+  <a class="button-light" href="./movie-0212.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="肮脏的战争" data-year="2026" data-type="电影" data-region="美国" data-search="肮脏的战争 美国 动作 / 惊悚 黑市 卧底 道德困境 军事科技">
+  <span class="rank-index">100</span>
+  <img src="./61.jpg" alt="肮脏的战争" loading="lazy">
+  <div>
+    <h2><a href="./movie-0361.html">肮脏的战争</a></h2>
+    <p>2026 · 电影 · 美国 · 动作 / 惊悚</p>
+  </div>
+  <a class="button-light" href="./movie-0361.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="007首部曲：皇家夜总会" data-year="2026" data-type="电影" data-region="英国" data-search="007首部曲：皇家夜总会 英国 动作, 冒险 重启 起源 特工">
+  <span class="rank-index">101</span>
+  <img src="./137.jpg" alt="007首部曲：皇家夜总会" loading="lazy">
+  <div>
+    <h2><a href="./movie-0887.html">007首部曲：皇家夜总会</a></h2>
+    <p>2026 · 电影 · 英国 · 动作, 冒险</p>
+  </div>
+  <a class="button-light" href="./movie-0887.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="生命博物馆" data-year="2026" data-type="电影" data-region="英国" data-search="生命博物馆 英国 剧情 / 奇幻 / 悬疑 死后世界 记忆 博物馆 治愈 哲学">
+  <span class="rank-index">102</span>
+  <img src="./39.jpg" alt="生命博物馆" loading="lazy">
+  <div>
+    <h2><a href="./movie-1839.html">生命博物馆</a></h2>
+    <p>2026 · 电影 · 英国 · 剧情 / 奇幻 / 悬疑</p>
+  </div>
+  <a class="button-light" href="./movie-1839.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="绿林灾难" data-year="2026" data-type="电影" data-region="美国" data-search="绿林灾难 美国 灾难 / 惊悚 / 科幻 生态灾难 变异植物 森林复仇 生存恐怖">
+  <span class="rank-index">103</span>
+  <img src="./21.jpg" alt="绿林灾难" loading="lazy">
+  <div>
+    <h2><a href="./movie-0321.html">绿林灾难</a></h2>
+    <p>2026 · 电影 · 美国 · 灾难 / 惊悚 / 科幻</p>
+  </div>
+  <a class="button-light" href="./movie-0321.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="冷血继父" data-year="2026" data-type="电影" data-region="美国" data-search="冷血继父 美国 惊悚 / 悬疑 家庭入侵 伪装 心理战 复仇">
+  <span class="rank-index">104</span>
+  <img src="./14.jpg" alt="冷血继父" loading="lazy">
+  <div>
+    <h2><a href="./movie-0764.html">冷血继父</a></h2>
+    <p>2026 · 电影 · 美国 · 惊悚 / 悬疑</p>
+  </div>
+  <a class="button-light" href="./movie-0764.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="头奖" data-year="2026" data-type="电影" data-region="美国" data-search="头奖 美国 犯罪, 动作, 黑色喜剧 彩票 追杀 贪欲 大逃杀">
+  <span class="rank-index">105</span>
+  <img src="./71.jpg" alt="头奖" loading="lazy">
+  <div>
+    <h2><a href="./movie-1271.html">头奖</a></h2>
+    <p>2026 · 电影 · 美国 · 犯罪, 动作, 黑色喜剧</p>
+  </div>
+  <a class="button-light" href="./movie-1271.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="斗魔王杰克" data-year="2026" data-type="动画剧集" data-region="日本" data-search="斗魔王杰克 日本 动作 / 奇幻 / 热血 格斗 恶魔 地狱 燃 拳拳到肉">
+  <span class="rank-index">106</span>
+  <img src="./141.jpg" alt="斗魔王杰克" loading="lazy">
+  <div>
+    <h2><a href="./movie-1791.html">斗魔王杰克</a></h2>
+    <p>2026 · 动画剧集 · 日本 · 动作 / 奇幻 / 热血</p>
+  </div>
+  <a class="button-light" href="./movie-1791.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="霹雳火秦明" data-year="2026" data-type="电影" data-region="中国大陆" data-search="霹雳火秦明 中国大陆 古装动作 水浒 铁骑 复仇 忠义">
+  <span class="rank-index">107</span>
+  <img src="./93.jpg" alt="霹雳火秦明" loading="lazy">
+  <div>
+    <h2><a href="./movie-0993.html">霹雳火秦明</a></h2>
+    <p>2026 · 电影 · 中国大陆 · 古装动作</p>
+  </div>
+  <a class="button-light" href="./movie-0993.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="黑色星期一第三季" data-year="2026" data-type="剧集" data-region="美国" data-search="黑色星期一第三季 美国 剧情，金融，黑色喜剧 华尔街 崩盘 精英 骗局">
+  <span class="rank-index">108</span>
+  <img src="./104.jpg" alt="黑色星期一第三季" loading="lazy">
+  <div>
+    <h2><a href="./movie-1604.html">黑色星期一第三季</a></h2>
+    <p>2026 · 剧集 · 美国 · 剧情，金融，黑色喜剧</p>
+  </div>
+  <a class="button-light" href="./movie-1604.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="黑人为白人作战" data-year="2026" data-type="电影" data-region="美国" data-search="黑人为白人作战 美国 历史战争剧情 南北战争 种族 身份认同 真实事件改编">
+  <span class="rank-index">109</span>
+  <img src="./25.jpg" alt="黑人为白人作战" loading="lazy">
+  <div>
+    <h2><a href="./movie-1675.html">黑人为白人作战</a></h2>
+    <p>2026 · 电影 · 美国 · 历史战争剧情</p>
+  </div>
+  <a class="button-light" href="./movie-1675.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="谋爱上瘾第一季" data-year="2026" data-type="剧集" data-region="中国大陆" data-search="谋爱上瘾第一季 中国大陆 悬疑爱情 阴谋 陷阱 替身 商战 虐恋">
+  <span class="rank-index">110</span>
+  <img src="./120.jpg" alt="谋爱上瘾第一季" loading="lazy">
+  <div>
+    <h2><a href="./movie-1470.html">谋爱上瘾第一季</a></h2>
+    <p>2026 · 剧集 · 中国大陆 · 悬疑爱情</p>
+  </div>
+  <a class="button-light" href="./movie-1470.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="虎口鸳鸯" data-year="2026" data-type="电影" data-region="中国大陆" data-search="虎口鸳鸯 中国大陆 动作, 爱情, 冒险 民国 盗匪 虐恋 枪战">
+  <span class="rank-index">111</span>
+  <img src="./42.jpg" alt="虎口鸳鸯" loading="lazy">
+  <div>
+    <h2><a href="./movie-0192.html">虎口鸳鸯</a></h2>
+    <p>2026 · 电影 · 中国大陆 · 动作, 爱情, 冒险</p>
+  </div>
+  <a class="button-light" href="./movie-0192.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="回路杀手" data-year="2026" data-type="电影" data-region="美国" data-search="回路杀手 美国 科幻 / 动作 / 惊悚 时间循环 杀手 记忆覆盖 宿敌 高概念">
+  <span class="rank-index">112</span>
+  <img src="./119.jpg" alt="回路杀手" loading="lazy">
+  <div>
+    <h2><a href="./movie-1469.html">回路杀手</a></h2>
+    <p>2026 · 电影 · 美国 · 科幻 / 动作 / 惊悚</p>
+  </div>
+  <a class="button-light" href="./movie-1469.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="赤壁亡魂" data-year="2026" data-type="电影" data-region="中国大陆" data-search="赤壁亡魂 中国大陆 悬疑 / 古装 三国 赤壁 探案 法医 阴谋">
+  <span class="rank-index">113</span>
+  <img src="./50.jpg" alt="赤壁亡魂" loading="lazy">
+  <div>
+    <h2><a href="./movie-1850.html">赤壁亡魂</a></h2>
+    <p>2026 · 电影 · 中国大陆 · 悬疑 / 古装</p>
+  </div>
+  <a class="button-light" href="./movie-1850.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="雷鸟" data-year="2026" data-type="电影" data-region="美国" data-search="雷鸟 美国 动作 / 科幻 / 冒险 机甲 沙漠 家族传承 空中对战 人工智能">
+  <span class="rank-index">114</span>
+  <img src="./131.jpg" alt="雷鸟" loading="lazy">
+  <div>
+    <h2><a href="./movie-0581.html">雷鸟</a></h2>
+    <p>2026 · 电影 · 美国 · 动作 / 科幻 / 冒险</p>
+  </div>
+  <a class="button-light" href="./movie-0581.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="盖棺了结" data-year="2026" data-type="电影" data-region="英国" data-search="盖棺了结 英国 悬疑 / 惊悚 密室推理 遗产争夺 暴风雪山庄">
+  <span class="rank-index">115</span>
+  <img src="./146.jpg" alt="盖棺了结" loading="lazy">
+  <div>
+    <h2><a href="./movie-1646.html">盖棺了结</a></h2>
+    <p>2026 · 电影 · 英国 · 悬疑 / 惊悚</p>
+  </div>
+  <a class="button-light" href="./movie-1646.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="风云传之双剑合璧" data-year="2026" data-type="电影" data-region="中国大陆" data-search="风云传之双剑合璧 中国大陆 古装 / 武侠 / 冒险 双主角 雌雄双剑 宿敌变战友">
+  <span class="rank-index">116</span>
+  <img src="./142.jpg" alt="风云传之双剑合璧" loading="lazy">
+  <div>
+    <h2><a href="./movie-1942.html">风云传之双剑合璧</a></h2>
+    <p>2026 · 电影 · 中国大陆 · 古装 / 武侠 / 冒险</p>
+  </div>
+  <a class="button-light" href="./movie-1942.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="龙宫派对" data-year="2026" data-type="电影" data-region="中国香港" data-search="龙宫派对 中国香港 奇幻, 喜剧, 家庭 龙王 海底 狂欢 环保">
+  <span class="rank-index">117</span>
+  <img src="./93.jpg" alt="龙宫派对" loading="lazy">
+  <div>
+    <h2><a href="./movie-0093.html">龙宫派对</a></h2>
+    <p>2026 · 电影 · 中国香港 · 奇幻, 喜剧, 家庭</p>
+  </div>
+  <a class="button-light" href="./movie-0093.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="被称为爸爸的女人" data-year="2026" data-type="电影" data-region="中国香港" data-search="被称为爸爸的女人 中国香港 剧情 / 家庭 跨性别 父权解构 亲情 粤语片">
+  <span class="rank-index">118</span>
+  <img src="./102.jpg" alt="被称为爸爸的女人" loading="lazy">
+  <div>
+    <h2><a href="./movie-1752.html">被称为爸爸的女人</a></h2>
+    <p>2026 · 电影 · 中国香港 · 剧情 / 家庭</p>
+  </div>
+  <a class="button-light" href="./movie-1752.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="美女总裁爱上我" data-year="2026" data-type="剧集" data-region="中国大陆" data-search="美女总裁爱上我 中国大陆 爱情 / 剧情 / 职场 霸总 反转 励志 甜虐">
+  <span class="rank-index">119</span>
+  <img src="./138.jpg" alt="美女总裁爱上我" loading="lazy">
+  <div>
+    <h2><a href="./movie-0738.html">美女总裁爱上我</a></h2>
+    <p>2026 · 剧集 · 中国大陆 · 爱情 / 剧情 / 职场</p>
+  </div>
+  <a class="button-light" href="./movie-0738.html">立即播放</a>
+</article>
+        <article class="rank-item searchable" data-card data-title="裁断分离之罪恶剪刀" data-year="2026" data-type="剧集" data-region="日本" data-search="裁断分离之罪恶剪刀 日本 奇幻 / 悬疑 / 恋爱 诅咒道具 发控 异能战斗 哥特萝莉">
+  <span class="rank-index">120</span>
+  <img src="./12.jpg" alt="裁断分离之罪恶剪刀" loading="lazy">
+  <div>
+    <h2><a href="./movie-0912.html">裁断分离之罪恶剪刀</a></h2>
+    <p>2026 · 剧集 · 日本 · 奇幻 / 悬疑 / 恋爱</p>
+  </div>
+  <a class="button-light" href="./movie-0912.html">立即播放</a>
+</article>
+      </div>
+      <div class="empty-state" data-empty-state>暂无匹配影片，请调整搜索条件。</div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a class="brand brand-footer" href="./index.html">
+        <span class="brand-mark">追</span>
+        <span class="brand-name">追新番</span>
+      </a>
+      <p>国产电影免费在线观看，提供高清版全集播放，同时更新热播国产电视剧，资源全面画质清晰，满足家庭观影需求。</p>
+    </div>
+    <div class="footer-column">
+      <h2>热门频道</h2>
+      <ul>
+          <li><a href="./category-hot-picks.html">热播精选</a></li>
+          <li><a href="./category-new-releases.html">新片速递</a></li>
+          <li><a href="./category-cinema-hall.html">高清电影</a></li>
+          <li><a href="./category-drama-series.html">剧集连播</a></li>
+          <li><a href="./category-suspense-zone.html">悬疑片场</a></li>
+          <li><a href="./category-romance-drama.html">爱情剧情</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h2>快捷入口</h2>
+      <ul>
+        <li><a href="./categories.html">分类总览</a></li>
+        <li><a href="./ranking.html">热播榜</a></li>
+        <li><a href="./search.html">影片搜索</a></li>
+        <li><a href="./library.html">片库索引</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© 追新番 · 高清影视内容导航</div>
+</footer>
+<script src="./assets/main.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

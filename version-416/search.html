@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://vercelcn.com/ads-widget.js"></script>
+  <title>影片搜索-高清国产影片-热门影片片库-高清免费在线观看</title>
+  <meta name="description" content="高清国产影片搜索页，可按影片名、地区、类型、年份和标签查找热门影片片库内容。">
+  <meta name="keywords" content="高清国产影片,热门影片,影片片库,高清免费,国产影片,精选影片,经典影片,影片合集,影片搜索,视频筛选">
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="top-nav" aria-label="主导航">
+    <a class="brand" href="./index.html" aria-label="高清国产影片首页">
+      <span class="brand-mark">📺</span>
+      <span>高清国产影片</span>
+    </a>
+    <div class="desktop-menu">
+        <a class="nav-link" href="./index.html">首页</a>
+        <a class="nav-link" href="./categories.html">分类</a>
+        <a class="nav-link" href="./rankings.html">热播榜</a>
+        <a class="nav-link active" href="./search.html">搜索</a>
+    </div>
+    <button class="menu-toggle" type="button" aria-label="展开导航" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+  <div class="mobile-menu">
+      <a class="mobile-link" href="./index.html">首页</a>
+      <a class="mobile-link" href="./categories.html">分类</a>
+      <a class="mobile-link" href="./rankings.html">热播榜</a>
+      <a class="mobile-link" href="./search.html">搜索</a>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero search-hero">
+    <span class="eyebrow">搜索筛选</span>
+    <h1>影片搜索</h1>
+    <p>输入影片名、地区、类型、年份或标签，快速进入对应详情页。</p>
+  </section>
+  <section class="content-section search-panel">
+    <div class="search-box-large">
+      <input id="site-search-input" type="search" placeholder="输入关键词搜索影片">
+      <select id="site-search-year">
+        <option value="">全部年份</option>
+      </select>
+      <button id="site-search-button" type="button">搜索</button>
+    </div>
+    <p id="site-search-status" class="filter-message" aria-live="polite"></p>
+    <div id="site-search-results" class="movie-grid"></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-grid">
+    <section>
+      <h2>高清国产影片</h2>
+      <p>整理高清国产影片内容，涵盖热门作品、经典片单和精选合集，便于按类型浏览。</p>
+    </section>
+    <section>
+      <h2>快速导航</h2>
+      <ul>
+        <li><a href="./index.html">网站首页</a></li>
+        <li><a href="./categories.html">分类总览</a></li>
+        <li><a href="./rankings.html">热播榜单</a></li>
+        <li><a href="./search.html">影片搜索</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>精选分类</h2>
+      <ul>
+        <li><a href="./category-hot-films.html">热门影片</a></li>
+        <li><a href="./category-domestic-selection.html">国产精选</a></li>
+        <li><a href="./category-classic-library.html">经典片库</a></li>
+        <li><a href="./category-urban-stories.html">都市剧集</a></li>
+        <li><a href="./category-suspense-crime.html">悬疑推理</a></li>
+        <li><a href="./category-comedy-light.html">喜剧轻松</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>内容浏览</h2>
+      <p>按分类、年份、地区、类型和关键词浏览高清国产影片内容。</p>
+    </section>
+  </div>
+  <div class="footer-bottom">© 2026 高清国产影片 · 高清片库内容浏览</div>
+</footer>
+<button class="back-top" type="button" aria-label="返回顶部">↑</button>
+
+<script src="./assets/search-index.js"></script>
+<script src="./assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

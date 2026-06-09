@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索影片 - 国内免费视频导航</title>
+  <meta name="description" content="搜索免费视频在线观看资源，按片名、类型、地区和标签快速筛选电影电视剧综艺动漫。">
+  <meta name="keywords" content="搜索影片,视频搜索,免费视频,免费视频网站,视频网站大全,电影网站,电视剧网站,综艺节目,动漫网站,在线观看,高清视频,视频导航,影视资源,免费观看,视频平台">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="./assets/style.css">
+  
+</head>
+<body class="">
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="./index.html" aria-label="国内免费视频导航">
+      <span class="brand-mark">▶</span>
+      <span>国内免费视频导航</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link " href="./index.html">首页</a>
+      <a class="nav-link " href="./categories.html">全部分类</a>
+      <a class="nav-link " href="./ranking.html">排行榜</a>
+      <a class="nav-link active" href="./search.html">搜索</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-label="打开菜单" data-menu-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" aria-label="移动导航" data-mobile-nav>
+    <a href="./index.html">首页</a>
+    <a href="./categories.html">全部分类</a>
+    <a href="./ranking.html">排行榜</a>
+    <a href="./search.html">搜索</a>
+  </nav>
+</header>
+<main class="page-wrap top-space">
+  <section class="page-hero compact-hero">
+    <span class="section-kicker">Search</span>
+    <h1>搜索影片</h1>
+    <p>输入影片名称、地区、类型、年份或标签，快速找到想看的高清免费视频内容。</p>
+  </section>
+  <section class="filter-panel search-page-panel">
+    <form class="filter-grid" id="siteSearchForm">
+      <label>
+        <span>关键词</span>
+        <input type="search" name="q" id="siteSearchInput" placeholder="搜索电影、电视剧、综艺、动漫">
+      </label>
+      <label>
+        <span>地区</span>
+        <select id="siteSearchRegion">
+          <option value="">全部地区</option>
+          <option value="中国">中国</option>
+          <option value="美国">美国</option>
+          <option value="日本">日本</option>
+          <option value="韩国">韩国</option>
+          <option value="法国">法国</option>
+          <option value="英国">英国</option>
+        </select>
+      </label>
+      <label>
+        <span>类型</span>
+        <select id="siteSearchType">
+          <option value="">全部类型</option>
+          <option value="电影">电影</option>
+          <option value="剧集">剧集</option>
+          <option value="动画">动画</option>
+          <option value="综艺">综艺</option>
+          <option value="纪录">纪录</option>
+        </select>
+      </label>
+      <button class="primary-btn search-button" type="submit">搜索</button>
+    </form>
+  </section>
+  <section class="content-section">
+    <div class="section-head">
+      <div>
+        <span class="section-kicker">Results</span>
+        <h2>搜索结果</h2>
+      </div>
+    </div>
+    <div class="movie-grid catalog-grid" id="searchResults"></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">国内免费视频导航</div>
+    <div class="footer-links">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">榜单</a>
+      <a href="./search.html">搜索</a>
+    </div>
+    <p>电影 · 电视剧 · 综艺 · 动漫 · 高清在线观看</p>
+  </div>
+</footer>
+<script src="./assets/movies.js"></script>
+<script src="./assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
